@@ -153,11 +153,14 @@
     <p><var>Welcome to Coffee Shop!</var></p>
     <p>This is a <sup>web</sup><sub>site</sub></p>
 
-    <form name="form1" id="form1" method="get" action="#">
-        <input id="text" name="name"><br>
-        <input id="text" name="surname"><br>
-        <input id="text" name="message"><br>
-        <input type="submit" value="SEND">
+    <form name="form1" id="form1" method="post" action="#">
+        <p>USERNAME : <input id="text" name="kullaniciadi" id="k-adi" placeholder="Username" maxlength="6" onclick="alert('Hello Javascript!')"></p>
+        <p>PASSWORD : <input type="password" name="sifre" id="pass" placeholder="Password" autocomplete="off" maxlength="10"></p>
+        <p>EMAIL : <input type="email" name="email" id="email" placeholder="Email"></p>
+        <p><textarea name="message" id="message" cols="33" rows="8" placeholder="Message"></textarea></p>
+        <input type="submit" value="Send">
+        <input type="button" value="Button">
+        <input type="reset">
     </form>
 
 
