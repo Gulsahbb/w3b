@@ -6,6 +6,32 @@
     <title>CONTACT</title>
 </head>
 <body>
-    
+    <h3>FORM PAGE</h3>
+    <form name="form1" id="form1" method="post" action="#">
+        <p>USERNAME : <input id="text" name="kullaniciadi" id="k-adi" placeholder="Username" maxlength="6"
+                onclick="alert('Hello Javascript!')"></p>
+        <p>PASSWORD : <input type="password" name="sifre" id="pass" placeholder="Password" autocomplete="off"
+                maxlength="10"></p>
+        <p>EMAIL : <input type="email" name="email" id="email" placeholder="Email"></p>
+        <p><input type="hidden" value="asdfasdf"></p>
+        <p><input type="url" placeholder="url"></p>
+        <p><input type="tel" placeholder="tel"></p>
+        <p><input type="search" placeholder="search"></p>
+        <p><textarea name="message" id="message" cols="33" rows="8" placeholder="Message"></textarea></p>
+        <p><label><input type="checkbox" value="M" name="chck">Male</label>
+            <label><input type="checkbox" value="F" name="chck">Female</label>
+        </p>
+        <p><label><input type="radio" value="M" name="chck">Male</label>
+            <label><input type="radio" value="F" name="chck">Female</label>
+        </p>
+        <p><select name="selectt" id="slct1" title="select">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>Javascript</option>
+        </select></p>
+        <input type="submit" value="Send">
+        <input type="button" value="Button">
+        <input type="reset">
+    </form>
 </body>
 </html>
