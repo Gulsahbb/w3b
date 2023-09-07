@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h3>FORM PAGE</h3>
+    <h1>CONTACT</h1>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">HOME PAGE</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="specials.html">SPECIALS</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <hr>
+    <h3>FORM</h3>
     <form name="form1" id="form1" method="post" action="#">
         <p>USERNAME : <input id="text" name="kullaniciadi" id="k-adi" placeholder="Username" maxlength="6"
                 onclick="alert('Hello Javascript!')"></p>
@@ -25,13 +39,14 @@
             <label><input type="radio" value="F" name="chck">Female</label>
         </p>
         <p><select name="selectt" id="slct1" title="select">
-            <option>HTML</option>
-            <option>CSS</option>
-            <option>Javascript</option>
-        </select></p>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Javascript</option>
+            </select></p>
         <input type="submit" value="Send">
         <input type="button" value="Button">
         <input type="reset">
     </form>
 </body>
+
 </html>
