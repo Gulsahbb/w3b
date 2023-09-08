@@ -1,32 +1,87 @@
-body{
+body {
     background-color: rgb(248, 233, 211);
 }
+/*
+.header{
+    background-color: aqua;
+}*/
 
-h1{
+.logo{
+    /*background-color: chartreuse;*/
+    float: left;
+    margin-left: 25px;
+}
+
+.logo a{
+    color: rgb(77, 30, 30);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu{
+   /* background-color: darkgoldenrod;*/
+    list-style-type: none;
+    padding: 13px;
+    text-align: right;
+    /*width: max-content;*/
+}
+
+.menu li{
+    /*background-color: blueviolet;*/
+    display: inline;
+    padding: 15px;
+    margin: 20px;
+}
+
+.menu li a{
+    /*background-color: rgb(43, 203, 64);*/
+    color: rgb(77, 30, 30);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*
+h1 {
+    color: rgb(77, 30, 30);
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    background-color: deepskyblue;
+    width: max-content;
+    float: left;
+}
+
+.logo a{
     color: rgb(77, 30, 30);
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    width: max-content;
+    padding: 10px;
+    float: left;
 }
-.menu ul{
+
+.menu ul {
     list-style-type: none;
-    text-align: center;
+    text-align: right;
+    background-color: blueviolet;
+    float: right;
 }
-.menu li{
+
+.menu li {
     display: inline;
     padding: 60px;
+    width: max-content;
+    background-color: aquamarine;
 }
-.menu ul li a{
-    text-decoration: none;
+
+.menu ul li a {
     color: rgb(77, 30, 30);
+    text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-h3{
-    text-align: center;
-}
-#form1{
-    text-align: center;
-}
-
+    background-color: crimson;
+}*/
