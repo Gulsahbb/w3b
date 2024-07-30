@@ -39,6 +39,7 @@ nav .search {
     height: 20px;
     margin-top: 40px;
     border: none;
+    outline: none;
     margin-right: 10px;
     margin-left: 10px;
     border-bottom: 1px solid #875C35;
