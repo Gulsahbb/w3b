@@ -1,0 +1,6 @@
+.coffee-make {
+    background-color: #875C35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
