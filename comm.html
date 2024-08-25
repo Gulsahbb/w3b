@@ -38,6 +38,66 @@
             background-color: #65451F;
             color: white;
         }
+
+        .contact-form .form-control {
+            border: 1px solid #ced4da;
+            /* Gri bir kenar rengi */
+            border-radius: 0.25rem;
+            /* Kenarları yuvarlatma */
+            box-shadow: none;
+            /* Gölgeleri kaldır */
+            padding: 0.75rem 1.25rem;
+            /* İç boşluk */
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            /* Geçiş animasyonu */
+        }
+
+        .contact-form .form-control:focus {
+            border-color: #80bdff;
+            /* Odaklanınca kenar rengi mavi */
+            outline: none;
+            /* Dış çerçeveyi kaldır */
+            box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+            /* Hafif mavi gölge */
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 1rem;
+            /* Form öğeleri arasında boşluk */
+        }
+
+        .contact-form label {
+            font-weight: bold;
+            /* Etiketler için kalın yazı tipi */
+            margin-bottom: 0.5rem;
+            /* Etiketler için alt boşluk */
+            display: block;
+            /* Etiketlerin tam genişlikte olması için */
+        }
+
+        .contact-form .btn-color {
+            background-color: #007bff;
+            /* Buton arka plan rengi */
+            color: #fff;
+            /* Buton metin rengi */
+            border: none;
+            /* Buton kenarlığı yok */
+            border-radius: 0.25rem;
+            /* Buton kenarları yuvarlatma */
+            padding: 0.75rem 1.25rem;
+            /* İç boşluk */
+            font-size: 1rem;
+            /* Yazı boyutu */
+            cursor: pointer;
+            /* Fare imlecini değiştirme */
+            transition: background-color 0.3s ease;
+            /* Geçiş animasyonu */
+        }
+
+        .contact-form .btn-color:hover {
+            background-color: #0056b3;
+            /* Hover durumunda arka plan rengi */
+        }
     </style>
 </head>
 
