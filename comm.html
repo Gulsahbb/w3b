@@ -25,7 +25,6 @@
             font-weight: bold;
         }
 
-        /*
         .contact-info {
             margin-bottom: 30px;
         }
@@ -39,119 +38,102 @@
             background-color: #65451F;
             color: white;
         }
-*/
-        .contact-form .form-control {
-            border: 1px solid #ced4da;
-            /* Gri bir kenar rengi */
-            border-radius: 0.25rem;
-            /* Kenarları yuvarlatma */
-            box-shadow: none;
-            /* Gölgeleri kaldır */
-            padding: 0.75rem 1.25rem;
-            /* İç boşluk */
-            transition: border-color 0.3s ease, box-shadow 0.3s ease;
-            /* Geçiş animasyonu */
+
+        /* Genel Stil */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
         }
 
-        .contact-form .form-control:focus {
-            border-color: #80bdff;
-            /* Odaklanınca kenar rengi mavi */
-            outline: none;
-            /* Dış çerçeveyi kaldır */
-            box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
-            /* Hafif mavi gölge */
-        }
-
-        .contact-form .form-group {
-            margin-bottom: 1rem;
-            /* Form öğeleri arasında boşluk */
-        }
-
-        .contact-form label {
-            font-weight: bold;
-            /* Etiketler için kalın yazı tipi */
-            margin-bottom: 0.5rem;
-            /* Etiketler için alt boşluk */
-            display: block;
-            /* Etiketlerin tam genişlikte olması için */
-        }
-
-        .contact-form .btn-color {
-            background-color: #007bff;
-            /* Buton arka plan rengi */
-            color: #fff;
-            /* Buton metin rengi */
-            border: none;
-            /* Buton kenarlığı yok */
-            border-radius: 0.25rem;
-            /* Buton kenarları yuvarlatma */
-            padding: 0.75rem 1.25rem;
-            /* İç boşluk */
-            font-size: 1rem;
-            /* Yazı boyutu */
-            cursor: pointer;
-            /* Fare imlecini değiştirme */
-            transition: background-color 0.3s ease;
-            /* Geçiş animasyonu */
-        }
-
-        .contact-form .btn-color:hover {
-            background-color: #0056b3;
-            /* Hover durumunda arka plan rengi */
-        }
-
-        .contact-info {
-            background: #C8AE7D;
-            /* Hafif gri arka plan rengi */
-            border-radius: 8px;
-            /* Köşe yuvarlatma */
+        /* Container ve Row */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
             padding: 20px;
-            /* İç boşluk */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            /* Hafif gölge */
-            margin: 10px 0;
-            /* Üst ve alt boşluk */
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        }
+
+        /* Bize Ulaşın Kısmı */
+        .contact-info {
+            margin-bottom: 30px;
         }
 
         .contact-info h2 {
-            font-size: 1.75rem;
-            /* Başlık boyutu */
+            font-size: 24px;
             margin-bottom: 20px;
-            /* Başlık altı boşluk */
-            color: #333;
-            /* Başlık rengi */
+            color: #0056b3;
         }
 
-        .contact-details {
-            font-size: 1rem;
-            /* Yazı boyutu */
-            color: #555;
-            /* Metin rengi */
+        .contact-info p {
+            margin-bottom: 10px;
+            font-size: 16px;
         }
 
-        .contact-details p {
-            display: flex;
-            /* Satır içi düzenleme */
-            align-items: center;
-            /* Dikey hizalama */
-            margin-bottom: 15px;
-            /* Paragraflar arası boşluk */
-        }
-
-        .contact-details i {
-            font-size: 1.2rem;
-            /* İkon boyutu */
-            color: #007bff;
-            /* İkon rengi */
+        .contact-info i {
             margin-right: 10px;
-            /* İkon ile metin arasındaki boşluk */
+            color: #0056b3;
         }
 
-        .contact-details p:hover {
-            color: #007bff;
-            /* Metin hover durumunda renk değişimi */
-            transition: color 0.3s ease;
-            /* Geçiş efekti */
+        /* İletişim Formu */
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #0056b3;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .form-control:focus {
+            border-color: #0056b3;
+            box-shadow: 0 0 8px rgba(0, 86, 179, 0.1);
+            outline: none;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #004494;
+        }
+
+        /* Mobil Uyumluluk */
+        @media (max-width: 768px) {
+            .col-md-6 {
+                width: 100%;
+                margin-bottom: 30px;
+            }
         }
     </style>
 </head>
